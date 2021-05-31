@@ -1,6 +1,6 @@
 const Game = require('../src/game').default
 
-  describe('Game', () => {
+describe('Game', () => {
   let game, p1, p2
   beforeEach(() => {
     p1 = 'Salem'
