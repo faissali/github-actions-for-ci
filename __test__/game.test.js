@@ -28,7 +28,7 @@ describe('Game', () => {
     it('Initializes with an empty board', async () => {
       for (let r = 0; r < game.board.length; r++) {
         for (let c = 0; c < game.board[r].lenght; c++) {
-          expect(game.board[r][c]).toBeUndefined()
+          expect(game.board[r][c]).toBe(null)
         }
       }
     })
